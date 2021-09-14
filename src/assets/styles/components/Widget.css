@@ -1,8 +1,8 @@
-.widgets{
+.widgets {
     flex: 0.3;
 }
 
-.widget_input{
+.widget_input {
     display: flex;
     align-items: center;
     background-color: var(--twitter-background);
@@ -11,16 +11,17 @@
     margin-top: 10px;
     margin-left: 20px;
 }
-.widget_input > input{
+
+.widget_input > input {
     border: none;
     background-color: var(--twitter-background);
 }
 
-.widget_input >input:focus{
+.widget_input > input:focus {
     outline: none;
 }
 
-.widgets_searchIcon{
+.widgets_searchIcon {
     color: gray;
 }
 
